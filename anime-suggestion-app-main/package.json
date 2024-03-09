@@ -1,0 +1,38 @@
+{
+  "name": "anisugg",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.18",
+    "@mui/material": "^5.14.18",
+    "axios": "^1.6.2",
+    "mongodb": "^6.3.0",
+    "nekosapi": "^0.5.1",
+    "next": "14.0.3",
+    "react": "^18",
+    "react-bootstrap": "^2.9.1",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.0",
+    "@babel/preset-react": "^7.23.3",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.1",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
+  }
+}
